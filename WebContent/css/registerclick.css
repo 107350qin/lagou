@@ -1,0 +1,296 @@
+body{
+    min-height: 655px;
+    background-color: #f8f9fc;
+}
+.re-header{
+    position: relative;
+    width: 100%;
+    height: 360px;
+    background-color: #00b38a;
+}
+.re-header a {
+    margin-left: -350px;
+    position: absolute;
+    z-index: 9999;
+    top: 76px;
+    left: 50%;
+    width: 112px;
+    height: 42px;
+    background: url(//img.lagou.com/passport/static/pc/modules/common/img/logo_ec681ff.png) no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+
+/*登录页面*/
+.re-content-box{
+    background-color: #fff;
+    border: 1px solid #dce1e6;
+    margin: -205px auto 60px ;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: table;
+    position: relative;
+    z-index: 1;
+    width: 588px;
+    padding: 60px 60px;
+}
+.re-content-box h2{
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.re-content-box h2 i{
+    color: #d8d8d8;
+    position: relative;
+    top: -1px;
+    font-size: 20px;
+    display: inline-block;
+}
+.re-content-box h2 span{
+    color: #555;
+    font-size: 16px;
+}
+.re-content-box h2 a{
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #00b38a;
+    padding-right: 14px;
+    background: url(//img.lagou.com/passport/static/pc/modules/common/img/next-arrow_032a1fe.png) no-repeat right center;
+}
+.re-content-box .re-content-box-left{
+    width: 290px;
+    padding-top: 10px;
+}
+.re-content-box .re-content-box-left-body{
+    float: left;
+    display: block;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-phone{
+    position: relative;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-phone span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    float: left;
+    width: 50px;
+    height: 44px;
+    padding-right: 22px;
+    line-height: 44px;
+    cursor: default;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-phone span::after{
+    position: absolute;
+    right: 8px;
+    top: 19px;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 5px;
+    background: url(//img.lagou.com/passport/static/pc/modules/common/img/code86_60edb99.png) no-repeat;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-phone input{
+    padding-left: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    height: 44px;
+    line-height: 44px;
+    vertical-align: middle;
+    color: #333;
+    outline: 0;
+    border-bottom: 1px solid #ededed;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-phone input::placeholder{
+    color: #999999;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-phone input:focus{
+    border-bottom: 1px solid #00b38a;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-item{
+    margin-top: 20px;
+    position: relative;
+
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-item input{
+    padding-right: 130px;
+    padding-left:5px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid #ededed;
+    height: 44px;
+    line-height: 44px;
+    vertical-align: middle;
+    color: #333;
+    outline: 0;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-item input::placeholder{
+    color: #999999;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-item input:focus{
+    border-bottom: 1px solid #00b38a;
+}
+
+.re-content-box .re-content-box-left-body .re-content-box-left-body-Verification{
+    margin-top: 20px;
+    position: relative;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-Verification input{
+    padding-right: 130px;
+    padding-left:5px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid #ededed;
+    height: 44px;
+    line-height: 44px;
+    vertical-align: middle;
+    color: #333;
+    outline: 0;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-Verification input::placeholder{
+    color: #999999;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-Verification input:focus{
+    border-bottom: 1px solid #00b38a;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-Verification p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    font-size: 14px;
+    padding: 0;
+    border: 0;
+    color: #00b38a;
+    height: 44px;
+    line-height: 44px;
+    cursor: pointer;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-btn{
+    margin-top: 60px;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-btn button{
+    width: 100%;
+    font-size: 18px;
+    line-height: 46px;
+    height: 46px;
+    color: #fff;
+    border-color: #00b38a;
+    background-color: #00b38a;
+    cursor: pointer;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-text{
+    color: #ccc;
+    margin-top: 12px;
+    text-align: center;
+}
+.re-content-box .re-content-box-left-body .re-content-box-left-body-text p{
+    color: #00b38a;
+   
+    display: inline;
+}
+
+.re-content-box .re-content-box-divider{
+    position: relative;
+    border-left: 1px dashed #ededed;
+    height: 310px;
+    color: #d8d8d8;
+    margin: 0 48px;
+    float: left;
+}
+.re-content-box .re-content-box-divider::after{
+    position: absolute;
+    content: 'or';
+    left: 50%;
+    top: 50%;
+    padding: 2px;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+}
+.re-content-box .re-content-box-right{
+    width: 160px;
+    color: #777;
+    float: left;
+    position: relative;
+}
+.re-content-box .re-content-box-right h5{
+    margin: 74px 0 8px;
+    color: #555;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+}
+.re-content-box .re-content-box-right .login_now{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    padding-right: 23px;
+    height: 22px;
+    font-size: 16px;
+    color: #00b38a;
+    background: url(//img.lagou.com/passport/static/pc/modules/common/img/icon-arrow-right_f36c0d6.png) right center no-repeat;
+}
+.re-content-box .re-content-box-right ul{
+    margin-top: 12px;
+    text-align: center;
+}
+.re-content-box .re-content-box-right ul li{
+    display: inline-block;
+    float: left;
+    margin-left: 22px;
+}
+.re-content-box .re-content-box-right ul li:first-child{
+    margin: 0;
+}
+.re-content-box .re-content-box-right ul li a{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.re-content-box .re-content-box-right ul li a.icon_sina{
+    background-image: url(//img.lagou.com/passport/static/pc/modules/common/img/icon-sina_aa928cf.png);
+}
+.re-content-box .re-content-box-right ul li a.icon_wechat{
+    background-image: url(//img.lagou.com/passport/static/pc/modules/common/img/icon-wechat_1341174.png);
+}
+.re-content-box .re-content-box-right ul li a.icon_tencent{
+    background-image: url(//img.lagou.com/passport/static/pc/modules/common/img/icon-tencent_3265c12.png);
+}
+.re-content-box .re-content-box-right ul li a.icon_baidu{
+    background-image: url(//img.lagou.com/passport/static/pc/modules/common/img/icon-baidu_bfb603c.png);
+}
+
+.re-content-box .re-content-box-left-body .re-content-box-left-body-item img{
+    position: absolute;
+    right: 0;
+    top: 64px;
+    z-index: 1;
+    width: 98px;
+    line-height: 38px;
+    color: #777;
+}
+
+.re-content-box .re-content-box-left-body .re-content-box-left-body-btn input{
+	
+	width: 100%;
+    font-size: 18px;
+    line-height: 46px;
+    height: 46px;
+    color: #fff;
+    border-color: #00b38a;
+    background-color: #00b38a;
+    cursor: pointer;
+	
+}

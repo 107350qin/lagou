@@ -1,0 +1,66 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font-size: 14px;
+    color:#666;
+    background:#fff;
+}
+a {text-decoration:none; }
+
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;}
+s,i,em{font-style:normal;text-decoration:none;}
+
+
+/*
+拉勾的公共样式*/
+.inner{
+    position: relative;
+    width: 1308px;
+    margin: 0 auto;
+}
+.lg-logo h1 {
+    float: left;
+    width: 97px;
+    height: 34px;
+    margin: 10px 0 0;
+    background-image: url("../img/logo.png");
+    overflow: hidden;
+    text-indent: -99em;
+}
+.current {
+    border-bottom: 2px solid #08d7a2;
+}
+.li-current{
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.09);
+}
+.li-current::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    width: 7px;
+    background: #fff;
+    z-index: 102;
+}
+.db{
+    display:block !important;
+
+}
+.clickli-current{
+    border-bottom: 2px solid #333;
+    background: #fff;
+    color: #333;
+}
+
+.clickli-db{
+    display: block !important;
+}

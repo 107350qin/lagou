@@ -1,0 +1,127 @@
+.lg-logintoolbar{
+    width: 100%;
+    position:fixed;
+    height: 60px;
+    z-index: 1000;
+    background: #09C084;
+    bottom:0px;
+    left: 0;
+}
+.lg-logintoolbar .lg-logintoolbar-center{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+}
+.lg-logintoolbar .lg-logintoolbar-center em{
+    width: 99px;
+    height: 86px;
+    background-image: url(//www.lgstatic.com/www/static/common/widgets/new_login_toolbar/img/login_officer_bg_8c1de01.png);
+    background-repeat: no-repeat;
+    background-size: 99px 86px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.lg-logintoolbar .lg-logintoolbar-center p{
+    margin-left: 180px;
+    color: #fff;
+    font-size: 0;
+}
+.lg-logintoolbar .lg-logintoolbar-center p span:nth-child(1){
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+    font-size: 20px;
+}
+.lg-logintoolbar .lg-logintoolbar-center p span:nth-child(2) {
+    width: 584px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+    font-size: 20px;
+    margin-left: 150px;
+
+}
+.lg-logintoolbar .lg-logintoolbar-center p span:nth-child(2) i{
+    width: 18px;
+    height: 14px;
+    line-height: 60px;
+    display: inline-block;
+    border-left: 2px solid #fff;
+    position: absolute;
+    top: 24px;
+    opacity: 0.4;
+}
+.lg-logintoolbar .lg-logintoolbar-center .lg-logintoolbar-center-right{
+    height: 60px;
+    width: 197px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.lg-logintoolbar .lg-logintoolbar-center .lg-logintoolbar-center-right a{
+    margin: 10px 0;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 89px;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.lg-logintoolbar .lg-logintoolbar-center .lg-logintoolbar-center-right a:nth-child(1){
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #FFF;
+    color: #FFF;
+
+}
+.lg-logintoolbar .lg-logintoolbar-center .lg-logintoolbar-center-right a:nth-child(1):hover{
+    background: #FFF;
+    border-color: #00b38a;
+    color: #00b38a;
+}
+.lg-logintoolbar .lg-logintoolbar-center .lg-logintoolbar-center-right a:nth-child(2){
+    background: #FFF;
+    color: #00b38a;
+    margin-left:10px;
+}
+.backtop {
+    display: inline-block;
+    width: 28px;
+    height: 46px;
+    position: fixed;
+    left: 50%;
+    margin-left: 631px;
+    cursor: pointer;
+    bottom: 208px;
+    background: url(//www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png) left top no-repeat;
+    background-position: 0 0;
+}
+a.backtop:hover{
+    background: url(//www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png) left top no-repeat;
+    background-position: -38px 0;
+}
+.product-fk {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    margin-left: 620px;
+    bottom: 140px;
+}
+.product-fk .product-fk-icon{
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background: url(//www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/feedback-new_98a086e.png) left center no-repeat;
+    background-position: 0 0;
+}
+.product-fk span{
+    font-size: 12px;
+    color: #555;
+}

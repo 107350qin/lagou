@@ -1,0 +1,58 @@
+.lg-footer{
+    width: 1024px;
+    background-color: #fff;
+    clear: both;
+    height: 67px;
+    position: relative;
+    margin: 91px auto 0;
+}
+.lg-footer .lg-footer-icon{
+    position: absolute;
+    left: 0;
+    top: 9px;
+    z-index: 1;
+    display: block;
+    width: 198px;
+    height: 19px;
+    background: url(//www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png) 0 0 no-repeat;
+}
+.lg-footer .lg-footer-inner{
+    padding-top: 12px;
+    float: right;
+    height: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+.lg-footer .lg-footer-inner a{
+    margin-right: 12px;
+    float: left;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+}
+.lg-footer .lg-footer-inner a:nth-child(1) i{
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    overflow: hidden;
+    background: url(//www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/app-download/new_v1_a261f5c.png) no-repeat;
+    vertical-align: text-top;
+    text-indent: -99em;
+}
+.lg-footer .lg-footer-inner span em{
+    font-size: 13px;
+    font-style: normal;
+}
+.lg-footer .lg-footer-copyright{
+    clear: both;
+    height: 12px;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    color: #d5d5d5;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}

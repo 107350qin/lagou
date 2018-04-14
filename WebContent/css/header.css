@@ -1,0 +1,115 @@
+/*header*/
+.lg-tnav .lg-tbar{
+    width: 1200px;
+}
+.lg-tbar{
+    height: 30px;
+    background-color: #333;
+}
+.lg-tbar .lg-tbar-l a {
+    color: #c4c3c3;
+    float: left;
+    line-height: 15px;
+    padding: 0 12px;
+    margin: 7px 0 0;
+    cursor: pointer;
+}
+.lg-tbar .lg-tbar-l a.lg-tbar-l-lgapp{
+    color: #08d7a2;
+    background: url("lagou/img/lg_app.png") 10px 0 no-repeat;
+    padding: 0 12px 0 27px;
+}
+.lg-tbar .lg-tbar-l a.lg-tbar-l-lgapp:hover{
+    color: #12eaaf;
+}
+.lg-tbar .lg-tbar-l a.lg-tbar-l-lgos{
+    border-left: 1px solid #5d5d5d;
+}
+.lg-tbar .lg-tbar-l a.lg-tbar-l-lgos:hover{
+    color: #fff;
+}
+.lg-tbar .lg-tbar-r{
+    float: right;
+    display: block;
+}
+.lg-tbar .lg-tbar-r li{
+    height: 30px;
+    position: relative;
+    float: left;
+}
+.lg-tbar .lg-tbar-r a {
+    color: #c4c3c3;
+    line-height: 15px;
+    float: left;
+    padding: 0 12px;
+    margin: 7px 0 0;
+}
+.lg-tbar .lg-tbar-r a:hover{
+    color: #fff;
+}
+.lg-tbar .lg-tbar-r-line {
+    border-right: 1px solid #5d5d5d;
+}
+/*拉钩tabnav*/
+.lg-tnav {
+    height: 54px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+.lg-tnav .lg-tnav-l {
+    float: left;
+    width: 260px;
+    padding-left: 60px;
+}
+.lg-tnav .lg-tnav-l-suggestCity {
+    float: left;
+    height: 44px;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 18px;
+    line-height: 44px;
+}
+.lg-tnav .lg-tnav-l-suggestCity strong {
+    margin-right: 8px;
+    color: #333333;
+    font-size: 18px;
+    font-weight:400;
+}
+.lg-tnav .lg-tnav-l-suggestCity em {
+    color: #333333999;
+    font-size: 12px;
+    cursor: pointer;
+}
+.lg-tnav .lg-tnav-wrap{
+    float: left;
+}
+.lg-tnav .lg-tnav-wrap li {
+    display: inline-block;
+    margin: 0 16px;
+    position: relative;
+}
+.lg-tnav .lg-tnav-wrap li a.current {
+    border-bottom: 2px solid #08d7a2;
+    color: #000;
+}
+.lg-tnav .lg-tnav-wrap li a {
+    display: block;
+    font-size: 18px;
+    color: #999999;
+    line-height: 53px;
+    padding: 0 5px;
+}
+.lg-tnav .lg-tnav-wrap li a:hover{
+    color: #000;
+}
+
+#myform{
+	position:relative;
+}
+#select{
+	border:none;
+	position:absolute;
+	left:42px;
+	top:-28px;
+}

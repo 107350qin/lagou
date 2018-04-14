@@ -1,0 +1,94 @@
+ .mainDiv{
+ width:100%;
+ }
+ 
+ .everyDiv{
+  width:905px;
+  height:100px;
+  margin:0 auto;
+  margin-top:20px;
+  border:solid 1px #EDEDED;
+  padding:15px;
+ }
+ .everyDiv .left,.right{
+ width:452px;
+ float:left;
+ }
+ .see1{
+ margin-top:15px;
+ }
+  .see2{
+margin-top:15px;
+ } 
+ .see2 span{
+padding:2px;
+border:solid 1px #DCDCDC;
+ }
+
+ 
+ .everyDiv .a,.b,.h{
+ color:#00B38A;
+ font-size:16px;
+ }
+ .everyDiv .e{
+ margin-left:20px;
+ }
+  .everyDiv .d{
+ color:#FD5F39;
+ font-size:16px;
+ }
+
+   .everyDiv .c{
+ color:#999999;
+ font-size:14px;
+ }
+ 
+   .everyDiv .right p{
+ margin-top:10px;
+ }
+ 
+ 
+ .everyDiv .right {
+position:relative;
+ }
+ 
+.everyDiv .right img{
+width:100px;
+height:100px;
+position:absolute;
+left:250px;
+top:0px;
+ }
+ 
+ 
+ 
+ .divide{
+  width:900px;
+ font-size:18px;
+  margin:0 auto;
+  padding:20px;
+  
+ }
+  .divide form{
+  display:inline;
+  
+ }
+   .divide a{
+  background-color:#00B38A;
+  margin-right:15px;
+ }
+ 
+    .divide input{
+    height:26px;
+  background-color:#F8595D;
+  margin-right:10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

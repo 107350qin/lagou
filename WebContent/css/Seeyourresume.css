@@ -1,0 +1,163 @@
+.lg-Seeyourresume{
+
+    width: 702px;
+    margin: 20px auto;
+}
+.lg-Seeyourresume .header-top{
+    position: relative;
+    height: 135px;
+    background: #fafafa url(//www.lgstatic.com/www/static/mycenter/modules/common/img/tou_c3707c7.png) center top no-repeat;
+    z-index: 5;
+}
+.header-top img:nth-child(1){
+    position: absolute;
+    left: 290px;
+    top: 39px;
+    width: 129px;
+    height: 129px;
+
+}
+.header-top img:nth-child(2){
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 170px;
+}
+.lg-Seeyourresume .header-bottom{
+    position: relative;
+    min-height: 118px;
+    padding: 56px 0 10px!important;
+    background-color: #fafafa;
+
+}
+.header-bottom .bottom-name{
+    height: 40px;
+    line-height: 38px;
+    margin-bottom: 8px!important;
+}
+.bottom-name span{
+    display: block;
+    height: 40px;
+    width: 468px;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+.header-bottom .bottom-introduce{
+    line-height: 32px;
+    min-height: 34px;
+    width: 604px;
+    margin: 8px auto;
+}
+.bottom-introduce span{
+    display: block;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+}
+.header-bottom .bottom-info{
+    position: relative;
+    color: #666;
+    padding: 5px 0 7px;
+}
+.bottom-info .info-top{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.bottom-info .info-top span{
+    margin-right: 8px;
+}
+.bottom-info .info-bottom{
+     text-align: center;
+}.bottom-info .info-bottom span{
+     margin-right: 8px;
+}
+
+ .re-content{
+     padding-top: 26px;
+     background-color: #fafafa;
+     border: 1px solid #f2f2f2;
+     border-bottom: 2px solid #f2f2f2;
+     border-top: 0;
+     border-bottom-right-radius: 3px;
+     border-bottom-left-radius: 3px;
+ }
+
+.re-content .item-head{
+    margin-bottom: 23px;
+    position: relative;
+}
+.re-content .item-head span:nth-child(1){
+    display: inline-block;
+    width: 273px;
+    height: 0;
+    border-top: 1px solid #ededed;
+}.re-content .item-head span:nth-child(2){
+     font-size: 18px;
+     padding: 6px 24px;
+     text-align: center;
+     background-color: #eee;
+     border-radius: 26px;
+     margin: 0 13px;
+}.re-content .item-head span:nth-child(3){
+      display: inline-block;
+      width: 272px;
+      height: 0;
+      border-top: 1px solid #ededed;
+}
+.item-content{
+    padding-bottom: 44px;
+}
+.item-content{
+    height: 150px;
+}
+ .item-content h4{
+     font-size: 20px;
+     padding-top: 4px;
+     margin-left: 40px;
+     float: left;
+ }
+.item-content span:nth-child(2){
+    font-size: 16px;
+    padding-top: 4px;
+    margin-left: 20px;
+    float: left;
+}.item-content span:nth-child(3){
+    font-size:16px;
+    padding-top: 4px;
+    margin-right: 40px;
+    float: right;
+}
+ .re-bottom{
+     position: relative;
+     height: 94px;
+     background-color: #f6f6f6;
+     text-align: center;
+     line-height: 94px;
+ }
+.re-bottom a{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background-color: #08d7a2;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 50px;
+    color: #000;
+}
+.re-bottom a:nth-child(2){
+    background-color: red;
+    color: white;
+}
+ .re-content .content-item .item-content span{
+	padding:30px;
+}
+.re-bottom a{
+	margin-top:22px;
+}

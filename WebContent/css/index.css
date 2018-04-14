@@ -1,0 +1,168 @@
+/*header*/
+.lg-tnav .lg-tbar{
+    width: 1200px;
+}
+.lg-tbar{
+    height: 30px;
+    background-color: #333;
+}
+.lg-tbar .lg-tbar-l a {
+    color: #c4c3c3;
+    float: left;
+    line-height: 15px;
+    padding: 0 12px;
+    margin: 7px 0 0;
+    cursor: pointer;
+}
+.lg-tbar .lg-tbar-l a.lg-tbar-l-lgapp{
+    color: #08d7a2;
+    background: url("../img/lg_app.png") 10px 0 no-repeat;
+    padding: 0 12px 0 27px;
+}
+.lg-tbar .lg-tbar-l a.lg-tbar-l-lgapp:hover{
+    color: #12eaaf;
+}
+.lg-tbar .lg-tbar-l a.lg-tbar-l-lgos{
+    border-left: 1px solid #5d5d5d;
+}
+.lg-tbar .lg-tbar-l a.lg-tbar-l-lgos:hover{
+    color: #fff;
+}
+.lg-tbar .lg-tbar-r{
+    float: right;
+    display: block;
+}
+.lg-tbar .lg-tbar-r li{
+    height: 30px;
+    position: relative;
+    float: left;
+}
+.lg-tbar .lg-tbar-r a {
+    color: #c4c3c3;
+    line-height: 15px;
+    float: left;
+    padding: 0 12px;
+    margin: 7px 0 0;
+}
+.lg-tbar .lg-tbar-r a:hover{
+    color: #fff;
+}
+.lg-tbar .lg-tbar-r-line {
+    border-right: 1px solid #5d5d5d;
+}
+/*拉钩tabnav*/
+.lg-tnav {
+    height: 54px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+.lg-tnav .lg-tnav-l {
+    float: left;
+    width: 260px;
+    padding-left: 60px;
+}
+.lg-tnav .lg-tnav-l-suggestCity {
+    float: left;
+    height: 44px;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 18px;
+    line-height: 44px;
+}
+.lg-tnav .lg-tnav-l-suggestCity strong {
+    margin-right: 8px;
+    color: #333333;
+    font-size: 18px;
+    font-weight:400;
+}
+.lg-tnav .lg-tnav-l-suggestCity em {
+    color: #333333999;
+    font-size: 12px;
+    cursor: pointer;
+}
+.lg-tnav .lg-tnav-wrap{
+    float: left;
+}
+.lg-tnav .lg-tnav-wrap li {
+    display: inline-block;
+    margin: 0 16px;
+    position: relative;
+}
+.lg-tnav .lg-tnav-wrap li a.current {
+    border-bottom: 2px solid #08d7a2;
+    color: #000;
+}
+.lg-tnav .lg-tnav-wrap li a {
+    display: block;
+    font-size: 18px;
+    color: #999999;
+    line-height: 53px;
+    padding: 0 5px;
+}
+.lg-tnav .lg-tnav-wrap li a:hover{
+    color: #000;
+}
+
+/*content*/
+.lg-content .searchview{
+    height: 132px;
+    background-color: #f2f5f4;
+}
+.lg-content .searchview .search-box {
+    width: 938px;
+    height: 46px;
+    margin: 0 auto;
+    padding-top:30px;
+}
+.lg-content .searchview .search-box .search-box-ui {
+    width: 762px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    font-size: 16px;
+    padding:12px 16px;
+    margin: 0;
+    border:1px solid #E8E8E8;
+    border-right: 0;
+
+}
+.lg-content .searchview .search-box .search-box-ui:focus{
+    border: 1px solid #00b38a;
+    border-right:none ;
+}
+.lg-content .searchview .search-box .search-box-button {
+    float: left;
+    width: 142px;
+    height: 46px;
+    font-size: 18px;
+    color: #ffffff;
+    border:0;
+    background-color:#00b38a;
+}
+.lg-content .searchview .search-box .search-box-button:hover{
+    background-color: #00a57f;
+}
+.lg-content .searchview .search-hotsearch{
+    width: 938px;
+    height: 22px;
+    margin:6px auto 0;
+}
+.lg-content .searchview .search-hotsearch dt{
+    margin-right: 10px;
+    font-size: 14px;
+    color: #777;
+    float: left;
+}
+.lg-content .searchview .search-hotsearch dd{
+    margin-right: 20px;
+    color: #999;
+    float: left;
+}
+.lg-content .searchview .search-hotsearch dd a{
+    color: #00b38a;
+}
+.lg-content .searchview .search-hotsearch dd a:hover{
+    border-bottom: 1px solid #00b38a;
+}
+

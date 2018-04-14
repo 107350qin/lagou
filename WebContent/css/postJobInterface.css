@@ -1,0 +1,58 @@
+body{
+    min-height: 655px;
+    background-color: #f8f9fc;
+}
+.re-header{
+    position: relative;
+    width: 100%;
+    height: 360px;
+    background-color: #00b38a;
+}
+.re-header a {
+    margin-left: -350px;
+    position: absolute;
+    z-index: 9999;
+    top: 76px;
+    left: 50%;
+    width: 112px;
+    height: 42px;
+    background: url(//img.lagou.com/passport/static/pc/modules/common/img/logo_ec681ff.png) no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+
+/*登录页面*/
+.re-content-box{
+    background-color: #fff;
+    border: 1px solid #dce1e6;
+    margin: -205px auto 60px ;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: table;
+    position: relative;
+    z-index: 1;
+    width: 588px;
+    padding: 60px 60px;
+}
+.re-content-box form{
+    width: 100%;
+    font-size: 18px;
+}.re-content-box h3{
+
+    font-size: 24px;
+
+}
+.re-content-box form input {
+    margin-top: 15px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #00b38a;
+    padding-left: 10px;}
+.re-content-box form input:nth-last-child(1) {
+    width: 310px;
+    }
+
+
